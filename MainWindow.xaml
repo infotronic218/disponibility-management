@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ManagingAPP"
         mc:Ignorable="d"
+		WindowStartupLocation="CenterScreen"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+		<StackPanel Background="LimeGreen" Margin="5,-5,-5,394" MinHeight="35" MaxHeight="35">
+			<Button Content="Button" Width="84" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="1,-2,0,0"/>
+			<Button Content="Button" Width="84" Padding="0,1,1,1" Margin="-184,-13,0,0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+		</StackPanel>
 
-    </Grid>
+	</Grid>
 </Window>
