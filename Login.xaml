@@ -17,13 +17,16 @@
 			<ColumnDefinition Width="29*"/>
 		</Grid.ColumnDefinitions>
 		<StackPanel Background="AliceBlue" Margin="369,0,0,0" Grid.ColumnSpan="2" Grid.RowSpan="3"   >
-			<Label FontSize="24"   HorizontalContentAlignment="Center" Content="Login into data Management" VerticalContentAlignment="Center"/>
-			<TextBox  x:Name="textBoxUsername" TextWrapping="Wrap" Text="Nom d'utilisateur" Width="120" RenderTransformOrigin="0.329,0.953" MinWidth="300" MinHeight="25" MaxWidth="300" MaxHeight="29" Margin="0,27,0,0" StylusEnter="textBoxUsername_StylusEnter" StylusLeave="textBoxUsername_StylusLeave" MouseEnter="textBoxUsername_MouseEnter" MouseLeave="textBoxUsername_MouseLeave"/>
-			<TextBox x:Name="textBoxPassword" TextWrapping="Wrap" Text="Mot de passe" Width="120" Margin="0,50,0,0" MinWidth="300" MinHeight="25" MaxWidth="300" MaxHeight="25"/>
-			<Button x:Name="buttonLogin"  Content="Login" Background="LawnGreen" Width="200" Height="30" MinHeight="31" MinWidth="200" MaxWidth="200" MaxHeight="26" Margin="0,75,0,0" Click="buttonLogin_Click"/>
+			<Label FontSize="24"   HorizontalContentAlignment="Center" Content="Connecter à l'application " VerticalContentAlignment="Center"/>
+			<Label Content="Nom d'utilisateur" Width="300" Margin="0,18,0,0"/>
+			<TextBox   x:Name="textBoxUsername" TextWrapping="Wrap" Text="" Width="120" RenderTransformOrigin="0.329,0.953" MinWidth="300" MinHeight="25" MaxWidth="300" MaxHeight="29" Margin="0,4,0,0" StylusEnter="textBoxUsername_StylusEnter" StylusLeave="textBoxUsername_StylusLeave" MouseEnter="textBoxUsername_MouseEnter" MouseLeave="textBoxUsername_MouseLeave" LostFocus="textBoxUsername_LostFocus"/>
+			<Label Content="Mot de passe" Width="300" Margin="0,20,0,0"/>
+			<TextBox x:Name="textBoxPassword" TextWrapping="Wrap" Text="" Width="120" Margin="0,4,0,0" MinWidth="300" MinHeight="25" MaxWidth="300" MaxHeight="25"/>
+			<Button x:Name="buttonLogin"  Content="Login" Background="LawnGreen" Width="200" Height="30" MinHeight="31" MinWidth="200" MaxWidth="200" MaxHeight="26" Margin="0,65,0,0" Click="buttonLogin_Click"/>
 
 
 		</StackPanel>
+		<StackPanel Grid.Row="1"/>
 
 
 

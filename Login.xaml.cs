@@ -58,14 +58,16 @@ namespace ManagingAPP
 
         private void textBoxUsername_MouseEnter(object sender, MouseEventArgs e)
         {
-            if (textBoxUsername.Text == "Nom d'utilisateur ")
-            {
-                textBoxUsername.Text = "";
-            }
+            
 
         }
 
         private void textBoxUsername_MouseLeave(object sender, MouseEventArgs e)
+        {
+           
+        }
+
+        private void textBoxUsername_LostFocus(object sender, RoutedEventArgs e)
         {
             if (textBoxUsername.Text == "")
             {
